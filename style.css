@@ -1,0 +1,154 @@
+body{
+
+   
+    background-image:url("bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@font-face{
+    font-family: 'hydra';
+    src: url(./fonts/Hacked-KerX.ttf);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.blur{
+    position: absolute;
+    width: 20rem;
+    height: 40rem;
+    backdrop-filter: blur(1rem);
+    border-radius: 2rem;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+
+
+}
+
+.ip{
+    background-color: transparent;
+    border-bottom: 1px solid greenyellow;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    color: greenyellow;
+    /* font-family: 'digital'; */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.ip:focus{
+    outline: none;
+}
+
+.login{
+    width: 4rem;
+    /* justify-self: center; */
+    align-self: center;
+    background-blend-mode: overlay ;
+    background-color: greenyellow;
+    border-radius: 2rem;
+    border-bottom: 1px solid greenyellow;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+::placeholder{
+    color: greenyellow;
+    opacity: 60%;
+}
+
+.login:focus{
+    outline: none;
+}
+
+.login:hover{
+    border-color: springgreen;
+ 
+}
+
+.login:active{
+ 
+}
+.logo{
+    position: absolute;
+    width: 6rem;
+    top: 30rem;
+    left: 6.8rem;
+    
+}
+.hydra{
+    color:greenyellow;
+    font-family:'hydra';
+    margin-top:60%;
+    font-size: 2rem;
+    
+}
+.or{
+    align-self: center;
+    top: 9rem;
+    position: absolute;
+    font-family: Arial;
+    color: chartreuse;
+}
+.signup{
+    align-self: center;
+    color: green;
+    background: greenyellow;
+    border-radius: 2rem;
+    border-bottom: 1px solid greenyellow;
+    position: relative;
+    top: 1rem;
+}
+.signup:focus{
+    outline: none;
+}
+
+
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s linear 1s both;
+	        animation: text-focus-in 1s linear 1s both;
+}
+
+
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+
